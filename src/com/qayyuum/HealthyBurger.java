@@ -7,8 +7,8 @@ public class HealthyBurger extends Hamburger {
     private String addItemHealthy2;
     private double addItemHealthyPrice2;
 
-    public HealthyBurger(String meat, String name, double price) {
-        super("Brown Rye Roll", meat, name, price);
+    public HealthyBurger(String meat, double price) {
+        super("Brown Rye Roll", meat, "Healthy", price);
     }
 
     @Override

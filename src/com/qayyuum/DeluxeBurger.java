@@ -12,4 +12,24 @@ public class DeluxeBurger extends Hamburger {
         double basePrice = super.calcHamburgerPrice();
         return basePrice;
     }
+
+    @Override
+    public void addItemTo1(String addItem1, double price) {
+        System.out.println("Cannot add additional items to deluxe burger");
+    }
+
+    @Override
+    public void addItemTo2(String addItem1, double price) {
+        System.out.println("Cannot add additional items to deluxe burger");
+    }
+
+    @Override
+    public void addItemTo3(String addItem1, double price) {
+        System.out.println("Cannot add additional items to deluxe burger");
+    }
+
+    @Override
+    public void addItemTo4(String addItem1, double price) {
+        System.out.println("Cannot add additional items to deluxe burger");
+    }
 }

@@ -15,5 +15,12 @@ public class Main {
         double myDeluxePrice = mydeluxe.calcHamburgerPrice();
         System.out.println("Total price for deluxe hamburger ordered is "+ myDeluxePrice);
 
+        HealthyBurger myhealthy = new HealthyBurger("Double Down", 6.11d);
+        myhealthy.addHealthyItem1("Egg", 1.5d);
+        myhealthy.addItemTo1("Lettuce", 1.0d);
+        myhealthy.addItemTo2("Tomato",0.7d);
+        double myHealthyPrice = myhealthy.calcHamburgerPrice();
+        System.out.println("Total price for deluxe hamburger ordered is "+ myHealthyPrice);
+
     }
 }
